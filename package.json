@@ -33,7 +33,7 @@
   "scripts": {
     "lint": "eslint '*/**/*.{js,ts}' --quiet --fix . && tsc --noEmit",
     "build": "webpack -p --config=configs/webpack/prod.js",
-    "start": "webpack-dev-server --inline --hot --config=configs/webpack/dev.js"
+    "start": "webpack-dev-server --config=configs/webpack/dev.js"
   },
   "husky": {
     "hooks": {
