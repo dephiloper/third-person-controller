@@ -1,5 +1,5 @@
 {
-  "name": "stack",
+  "name": "third-person-controller",
   "version": "0.1.0",
   "main": "src/game.ts",
   "author": "Philipp Boensch <philippboensch@gmail.com",
@@ -44,5 +44,10 @@
     "*.{js,ts}": [
       "eslint --fix"
     ]
+  },
+  "dependencies": {
+    "@types/three": "^0.133.1",
+    "three": "^0.133.1",
+    "tsyringe": "^4.6.0"
   }
 }
